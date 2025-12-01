@@ -65,7 +65,6 @@ int main()
     return 0;
 }
 
-
 void gotoxy( int column, int line )
   {
   COORD coord;
