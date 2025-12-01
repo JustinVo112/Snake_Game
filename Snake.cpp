@@ -7,7 +7,6 @@
 #define MAXX 35
 #define MAXY 20
 using namespace std;
-
 void gotoxy( int column, int line );
 struct Point{
     int x,y;
@@ -36,7 +35,7 @@ public:
         if (Huong==1) A[0].y = A[0].y + 1;
         if (Huong==2) A[0].x = A[0].x - 1;
         if (Huong==3) A[0].y = A[0].y - 1;
-        if((A[0].x == Qua.x) && (A[0].y == Qua.y)){
+        if ((A[0].x == Qua.x) && (A[0].y == Qua.y)){
             DoDai++;
             Qua.x = rand()%(MAXX-MINX)+MINX;
             Qua.y = rand()%(MAXY-MINY)+MINY;
